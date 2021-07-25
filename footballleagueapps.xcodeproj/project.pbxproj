@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0F7C8D26A81A5400A85F1E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F7C8C26A81A5400A85F1E /* AccountViewController.swift */; };
+		4C291CF326AD7790008B85E2 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C291CF226AD7790008B85E2 /* .swiftlint.yml */; };
+		4C47AC4126A54F00007272AD /* DetailTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47AC4026A54F00007272AD /* DetailTeamViewController.swift */; };
+		4C47AC4326A54F2F007272AD /* DetailBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47AC4226A54F2F007272AD /* DetailBackgroundViewController.swift */; };
+		4C47AC4526A5538D007272AD /* TeamsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47AC4426A5538D007272AD /* TeamsResponse.swift */; };
 		4C700986269EC41B00ACCA0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C700985269EC41B00ACCA0E /* AppDelegate.swift */; };
 		4C700988269EC41B00ACCA0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C700987269EC41B00ACCA0E /* SceneDelegate.swift */; };
 		4C70098A269EC41B00ACCA0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C700989269EC41B00ACCA0E /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 		4C700992269EC41C00ACCA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C700990269EC41C00ACCA0E /* LaunchScreen.storyboard */; };
 		4C70099D269EC41C00ACCA0E /* footballleagueappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C70099C269EC41C00ACCA0E /* footballleagueappsTests.swift */; };
 		4C7009A8269EC41C00ACCA0E /* footballleagueappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7009A7269EC41C00ACCA0E /* footballleagueappsUITests.swift */; };
+		4C7009BB269EC5C200ACCA0E /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7009B9269EC5C200ACCA0E /* TeamsTableViewCell.swift */; };
+		4C7009BC269EC5C200ACCA0E /* TeamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7009BA269EC5C200ACCA0E /* TeamsTableViewCell.xib */; };
+		4C8CACE126A5CC3B007D4D7D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4C8CACE026A5CC3B007D4D7D /* SDWebImage */; };
+		4C8CACE326A5CC57007D4D7D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CACE226A5CC57007D4D7D /* ApiService.swift */; };
+		4C8CACE626A5D149007D4D7D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CACE526A5D149007D4D7D /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0F7C8C26A81A5400A85F1E /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		4C291CF226AD7790008B85E2 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		4C47AC4026A54F00007272AD /* DetailTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTeamViewController.swift; sourceTree = "<group>"; };
+		4C47AC4226A54F2F007272AD /* DetailBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBackgroundViewController.swift; sourceTree = "<group>"; };
+		4C47AC4426A5538D007272AD /* TeamsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsResponse.swift; sourceTree = "<group>"; };
 		4C700982269EC41B00ACCA0E /* footballleagueapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballleagueapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C700985269EC41B00ACCA0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C700987269EC41B00ACCA0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,10 @@
 		4C7009A3269EC41C00ACCA0E /* footballleagueappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballleagueappsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7009A7269EC41C00ACCA0E /* footballleagueappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballleagueappsUITests.swift; sourceTree = "<group>"; };
 		4C7009A9269EC41C00ACCA0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C7009B9269EC5C200ACCA0E /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
+		4C7009BA269EC5C200ACCA0E /* TeamsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsTableViewCell.xib; sourceTree = "<group>"; };
+		4C8CACE226A5CC57007D4D7D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4C8CACE526A5D149007D4D7D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8CACE126A5CC3B007D4D7D /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +99,7 @@
 		4C700979269EC41B00ACCA0E = {
 			isa = PBXGroup;
 			children = (
+				4C291CF226AD7790008B85E2 /* .swiftlint.yml */,
 				4C700984269EC41B00ACCA0E /* footballleagueapps */,
 				4C70099B269EC41C00ACCA0E /* footballleagueappsTests */,
 				4C7009A6269EC41C00ACCA0E /* footballleagueappsUITests */,
@@ -99,12 +120,12 @@
 		4C700984269EC41B00ACCA0E /* footballleagueapps */ = {
 			isa = PBXGroup;
 			children = (
-				4C700985269EC41B00ACCA0E /* AppDelegate.swift */,
-				4C700987269EC41B00ACCA0E /* SceneDelegate.swift */,
-				4C700989269EC41B00ACCA0E /* ViewController.swift */,
-				4C70098B269EC41B00ACCA0E /* Main.storyboard */,
+				4C8CACE426A5D12D007D4D7D /* Extension */,
+				4C7009B8269EC45000ACCA0E /* View */,
+				4C7009B7269EC43F00ACCA0E /* Controller */,
+				4C7009B6269EC43700ACCA0E /* Model */,
+				4C7009B5269EC43200ACCA0E /* Base */,
 				4C70098E269EC41C00ACCA0E /* Assets.xcassets */,
-				4C700990269EC41C00ACCA0E /* LaunchScreen.storyboard */,
 				4C700993269EC41C00ACCA0E /* Info.plist */,
 			);
 			path = footballleagueapps;
@@ -128,6 +149,54 @@
 			path = footballleagueappsUITests;
 			sourceTree = "<group>";
 		};
+		4C7009B5269EC43200ACCA0E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4C700985269EC41B00ACCA0E /* AppDelegate.swift */,
+				4C700987269EC41B00ACCA0E /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4C7009B6269EC43700ACCA0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C47AC4426A5538D007272AD /* TeamsResponse.swift */,
+				4C8CACE226A5CC57007D4D7D /* ApiService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C7009B7269EC43F00ACCA0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C700989269EC41B00ACCA0E /* ViewController.swift */,
+				4C7009B9269EC5C200ACCA0E /* TeamsTableViewCell.swift */,
+				4C47AC4026A54F00007272AD /* DetailTeamViewController.swift */,
+				4C47AC4226A54F2F007272AD /* DetailBackgroundViewController.swift */,
+				4C0F7C8C26A81A5400A85F1E /* AccountViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C7009B8269EC45000ACCA0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C70098B269EC41B00ACCA0E /* Main.storyboard */,
+				4C700990269EC41C00ACCA0E /* LaunchScreen.storyboard */,
+				4C7009BA269EC5C200ACCA0E /* TeamsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C8CACE426A5D12D007D4D7D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C8CACE526A5D149007D4D7D /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,12 +207,16 @@
 				4C70097E269EC41B00ACCA0E /* Sources */,
 				4C70097F269EC41B00ACCA0E /* Frameworks */,
 				4C700980269EC41B00ACCA0E /* Resources */,
+				4C291CF126AD75C3008B85E2 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = footballleagueapps;
+			packageProductDependencies = (
+				4C8CACE026A5CC3B007D4D7D /* SDWebImage */,
+			);
 			productName = footballleagueapps;
 			productReference = 4C700982269EC41B00ACCA0E /* footballleagueapps.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 4C700979269EC41B00ACCA0E;
+			packageReferences = (
+				4C8CACDF26A5CC3B007D4D7D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 4C700983269EC41B00ACCA0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C291CF326AD7790008B85E2 /* .swiftlint.yml in Resources */,
+				4C7009BC269EC5C200ACCA0E /* TeamsTableViewCell.xib in Resources */,
 				4C700992269EC41C00ACCA0E /* LaunchScreen.storyboard in Resources */,
 				4C70098F269EC41C00ACCA0E /* Assets.xcassets in Resources */,
 				4C70098D269EC41B00ACCA0E /* Main.storyboard in Resources */,
@@ -253,14 +331,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C291CF126AD75C3008B85E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C70097E269EC41B00ACCA0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8CACE626A5D149007D4D7D /* Extension.swift in Sources */,
+				4C7009BB269EC5C200ACCA0E /* TeamsTableViewCell.swift in Sources */,
+				4C47AC4326A54F2F007272AD /* DetailBackgroundViewController.swift in Sources */,
 				4C70098A269EC41B00ACCA0E /* ViewController.swift in Sources */,
 				4C700986269EC41B00ACCA0E /* AppDelegate.swift in Sources */,
 				4C700988269EC41B00ACCA0E /* SceneDelegate.swift in Sources */,
+				4C0F7C8D26A81A5400A85F1E /* AccountViewController.swift in Sources */,
+				4C47AC4126A54F00007272AD /* DetailTeamViewController.swift in Sources */,
+				4C8CACE326A5CC57007D4D7D /* ApiService.swift in Sources */,
+				4C47AC4526A5538D007272AD /* TeamsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +551,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.centaury.footballleagueapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +570,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.centaury.footballleagueapps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -593,6 +698,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C8CACDF26A5CC3B007D4D7D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C8CACE026A5CC3B007D4D7D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C8CACDF26A5CC3B007D4D7D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C70097A269EC41B00ACCA0E /* Project object */;
 }
